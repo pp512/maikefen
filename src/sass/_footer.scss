@@ -1,0 +1,126 @@
+@charset "utf-8";
+//底部1  服务盒子
+#footerfuwu{
+    width:100%;
+    //margin-top:30px;
+    padding-top: 10px;
+    border-top: 1px solid #eee;
+    background:#fff;
+    .fuwubox{
+        width:1200px;
+        height:80px;
+        padding-bottom:15px;
+        margin:0 auto;
+        border-bottom:1px solid #ccc;
+        background:url(../images/fuwu.png) top center no-repeat;
+    }
+}
+
+//底部2  信息盒子
+#footerxinxi{
+    width:100%;
+    overflow: hidden;
+    background:#fff;
+    .xinxibox{
+        border:none;
+        margin:0 auto;
+        width:1200px;
+        ul{
+            width:932px;
+            padding:20px 0;
+            float:left;
+            font-size:0;
+            white-space: nowrap;
+            li{
+                display:inline-block;
+                font-size:12px;
+                width:156px;
+                padding:10px 0;
+                vertical-align: top;
+                letter-spacing: normal;
+                word-spacing: normal;
+                 dd a:hover{
+                    color: #f60;
+                }
+                dt{
+                    font: 400 16px/20px "microsoft yahei";
+                    color: #333;
+                    margin: 5px 0 15px 0;
+                }
+                dd{
+                    padding:4px 5px;
+                    font: 12px/20px "microsoft yahei";
+                    white-space: nowrap;
+                    text-overflow: ellipsis;
+                    display: block;
+                    overflow: hidden;
+                    a{
+                        color: #777;
+                        transition: all 0.15s;
+                    }
+                }
+            }
+        }
+        .lianxi{
+            width:243px;
+            float:right;
+            border-left: 1px solid #eee;
+            text-align: center;
+            margin-top: 40px;
+            padding: 20px 0 30px 20px;
+         }
+         .hotnum{
+            margin:0 0 10px;
+            font-size: 22px;
+            line-height: 1;
+            color: #ff6700;
+         }
+         .hottime{
+             margin:0 0 20px;
+             color: #666666;
+         }
+         .hotfrom a:hover{
+             background:#ff6700;
+             color:#fff;
+         }
+         .hotfrom{
+             a{
+                 width:160px;
+                 line-height:28px;
+                 display:block;
+                 color: #dd4500;
+                 background:#fff;
+                margin: 0 auto;
+                border: 1px solid #ff6700;
+                opacity: 0.8;
+             }
+         }
+    }
+}
+
+//底部3  footerlist
+#footerlist{
+    width:100%;
+    padding:24px 0 20px 0;
+    font-size: 12px !important;
+    text-align: center;
+    color: #666;
+    border: none;
+    line-height:30px;
+    a{
+        color: #666;
+
+    }
+    p{
+        word-spacing: 5px; 
+    }
+    .listtu{
+          line-height: 28px;
+          margin:6px auto;
+          img{
+              width:108px;
+              height:40px;
+              margin:5px 0 0 5px;
+          }
+    }
+}

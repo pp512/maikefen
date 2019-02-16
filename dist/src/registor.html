@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/registor.css">
+    <!-- <script src="script/thirdplugins/require.js"  defer async="true" data-main="script/js/main.js"></script> -->
+    <title>注册页面</title>
+</head>
+
+<body>
+    <!-- 顶部 -->
+    <div id="header">
+        <div class="wrapper">
+            <h1 class="logo_left">
+                <a href="#">
+                    <img src="http://www.51mkf.com/data/upload/shop/common/05889601477334097.png">
+                </a>
+            </h1>
+            <div class="logo_right">
+                <span>
+                    我已注册，现在就
+                    <a title="登录" href="login.html">登录</a>
+                </span>
+            </div>
+        </div>
+    </div>
+
+    <!-- 注册表单 -->
+    <div id="registor_bg">
+        <div class="registor_box">
+            <div class="mian">
+                <div class="left">
+                    <div class="registor_mode">
+                        <ul class="tasb">
+                            <li>
+                                <a href="" class="active">手机注册<i></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="container">
+                        <div class="moblie">
+                            <form action="http://10.31.161.43/mkfeng/php/zhuche.php" id="redails" method="POST">
+                                <dl>
+                                    <dt>手机号：</dt>
+                                    <dd>
+                                        <input type="text" class="text" placeholder="请输入手机号码" name="phone" id="phone"
+                                            style="color: rgb(19, 1, 1);">
+                                    </dd>
+                                </dl>
+
+                                <dl>
+                                    <dt>密&nbsp;&nbsp;码：</dt>
+                                    <dd>
+                                        <input type="password" class="text" placeholder="请输入密码" name="password" style="color: rgb(11, 6, 44);">
+                                    </dd>
+                                </dl>
+                                <div class="eorr"></div>
+                                <div class="tiptext">
+                                    <span>
+                                        <a href="#">
+                                            <i class="icon"></i>
+                                            发送短信验证
+                                        </a>
+                                    </span>
+                                </div>
+                                <dl>
+                                    <dt>短信验证</dt>
+                                    <dd>
+                                        <input type="text" name="sms_captcha" placeholder="输入6位短信验证码" class="text"
+                                            style="color: rgb(187, 187, 187);">
+                                    </dd>
+                                </dl>
+                                <div class="submit-div">
+                                    <input type="submit" class="submit" value="下一步" name="submit">
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="api_logo">
+                        <h4>使用合作网站账号直接登录</h4>
+                        <a href="#" title="qq登录" class="QQ"><i></i></a>
+                        <a href="#" title="新浪微博" class="sina"><i></i></a>
+                        <a href="#" title="微信" class="weixin"><i></i></a>
+                    </div>
+                    <div class="after">
+                        <h4>注册之后您可以</h4>
+                        <ol>
+                            <li class="ico01"><i></i>购买商品支付订单</li>
+                            <li class="ico02"><i></i>收藏商品关注店铺</li>
+                            <li class="ico03"><i></i>安全交易诚信无忧</li>
+                            <li class="ico04"><i></i>积分获取优惠购物</li>
+                            <li class="ico05"><i></i>会员等级享受特权</li>
+                            <li class="ico06"><i></i>评价晒单站外分享</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- 空白行 -->
+    <div id="kong">
+        <div class="cir"></div>
+    </div>
+
+
+    <!-- 导入底部 -->
+    <div id="footers"></div>
+
+    <script src="script/js/jquery.js" type="text/javascript" charset="utf-8"></script>
+    <script src="script/js/jquery.validate.js" type="text/javascript" charset="utf-8"></script>
+    <script type="text/javascript" src="script/js/footer.js"></script>
+    <script type="text/javascript" src="script/js/registor.js"></script>
+
+</html>

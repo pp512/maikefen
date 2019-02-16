@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/login.css">
+    <title>登录页面</title>
+</head>
+
+<body>
+    <!-- 顶部 -->
+    <div id="header">
+        <div class="wrapper">
+            <h1 class="logo_left">
+                <a href="#">
+                    <img src="http://www.51mkf.com/data/upload/shop/common/05889601477334097.png">
+                </a>
+            </h1>
+            <div class="logo_right">
+                <span class="touxiang">
+                    <img src="http://www.51mkf.com/data/upload/shop/common/default_user_portrait.gif">
+                </span>
+                <span>
+                    您好，欢迎来到迈客风商城<br>
+                    已注册的会员请登录，或立即
+                    <a title="注册新会员" href="registor.html">注册新会员</a>
+                </span>
+            </div>
+        </div>
+    </div>
+
+    <!-- 登录表 -->
+    <div id="login">
+        <div class="denglu clear">
+            <div class="left_pic">
+                <img src="http://www.51mkf.com/data/upload/shop/login/2.jpg" border="0">
+            </div>
+            <div class="biaodan">
+                <div class="arrow"></div>
+                <div class="login_mode">
+                    <ul>
+                        <li>
+                            <a href="login.html" class="active">用户登录<i></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="tianxie">
+                    <form method="post" id="login">
+                        <dl>
+                            <dt>账&nbsp;&nbsp;&nbsp;号：</dt>
+                            <dd style="position:relative">
+                                <input type="text" class="text" id="name" placeholder="可使用已注册的用户名或手机号登录" />
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>密&nbsp;&nbsp;&nbsp;码：</dt>
+                            <dd>
+                                <input type="password" class="text" id="password" name="password" placeholder="6-20个大小写英文字母、符号或数字" />
+                            </dd>
+                        </dl>
+                        <div class="handle_div">
+                            <span class="auto">
+                                <input type="checkbox" class="checkbox" name="auto_login" value="1" />
+                                七天自动登录<em style="display: none;">请勿在公用电脑上使用</em>
+                            </span>
+                            <a href="">忘记密码了？</a>
+                        </div>
+                        <div class="submit_div">
+                            <input type="button" class="submit" name="submit" value="登&nbsp;&nbsp;&nbsp;录" />
+                        </div>
+                    </form>
+                </div>
+                <div class="login_api">
+                    <h4>使用合作网站账号登录：</h4>
+                    <a href="" class="QQ">
+                        <i></i>
+                        QQ
+                    </a>
+                    <a href="" class="sina">
+                        <i></i>
+                        新浪微博
+                    </a>
+                    <a href="" class="wx">
+                        <i></i>
+                        微信
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 空白行 -->
+    <div id="kong">
+        <div class="cir"></div>
+    </div>
+
+    <!-- 导入底部 -->
+    <div id="footers"></div>
+
+
+
+    <!-- 引用的文件 -->
+    <script src="script/js/jquery.js" type="text/javascript" charset="utf-8"></script>
+    <script type="text/javascript" src="script/js/login.js"></script>
+    <script type="text/javascript" src="script/js/footer.js"></script>
+
+</body>
+
+</html>

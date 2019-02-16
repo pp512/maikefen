@@ -1,0 +1,363 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none; }
+  * .clear:after {
+    content: "";
+    display: block;
+    clear: both;
+    height: 0;
+    overflow: hidden; }
+
+body {
+  background-color: #FAFAFA; }
+
+#header {
+  width: 99%;
+  height: 80px;
+  border-bottom: solid 2px #F5F5F5;
+  margin: 5px auto 0 auto;
+  background-color: #FFF; }
+  #header .wrapper {
+    width: 1000px;
+    height: 80px;
+    margin: 0 auto; }
+    #header .wrapper .logo_left {
+      width: 240px;
+      height: 60px;
+      float: left;
+      margin-top: 10px; }
+      #header .wrapper .logo_left img {
+        max-width: 240px;
+        max-height: 60px;
+        border: medium none;
+        vertical-align: middle; }
+    #header .wrapper .logo_right {
+      font-size: 14px;
+      color: #AAA;
+      line-height: 20px;
+      float: right;
+      height: 40px;
+      margin-top: 30px; }
+      #header .wrapper .logo_right .touxiang {
+        width: 40px;
+        height: 40px;
+        margin-right: 6px;
+        vertical-align: top;
+        display: inline-block; }
+        #header .wrapper .logo_right .touxiang img {
+          width: 40px;
+          height: 40px;
+          border-radius: 100%; }
+      #header .wrapper .logo_right span {
+        vertical-align: top;
+        display: inline-block; }
+        #header .wrapper .logo_right span a {
+          font-weight: 600;
+          margin-left: 4px;
+          color: #06C; }
+
+#login {
+  width: 100%; }
+  #login .denglu {
+    width: 1000px;
+    margin: 20px auto; }
+    #login .denglu .left_pic {
+      width: 450px;
+      height: 350px;
+      float: left;
+      margin: 30px 0;
+      position: relative;
+      z-index: 1; }
+      #login .denglu .left_pic img {
+        max-width: 450px;
+        max-height: 350px;
+        position: absolute;
+        z-index: 1;
+        top: 0;
+        left: 0; }
+    #login .denglu .biaodan {
+      background-color: #FFF;
+      width: 440px;
+      padding: 19px 19px 29px 19px;
+      border: solid 1px #E6E6E6;
+      border-radius: 5px;
+      float: right;
+      position: relative;
+      z-index: 1; }
+      #login .denglu .biaodan .arrow {
+        background: url(../images/login_pic.png) no-repeat -280px 0;
+        width: 17px;
+        height: 9px;
+        position: absolute;
+        z-index: 1;
+        top: -9px;
+        left: 160px; }
+      #login .denglu .biaodan .login_mode ul {
+        font-size: 0;
+        word-spacing: -1em;
+        border-bottom: solid 1px #E6E6E6; }
+        #login .denglu .biaodan .login_mode ul li {
+          vertical-align: bottom;
+          letter-spacing: normal;
+          word-spacing: normal;
+          text-align: center;
+          display: inline-block;
+          width: 50%;
+          height: 40px;
+          margin-bottom: -1px; }
+          #login .denglu .biaodan .login_mode ul li a {
+            font-size: 18px;
+            line-height: 24px;
+            padding-bottom: 13px;
+            position: relative;
+            z-index: 1; }
+            #login .denglu .biaodan .login_mode ul li a i {
+              display: block;
+              line-height: 0;
+              border-color: #F32613 transparent transparent transparent;
+              border-style: solid dashed dashed dashed;
+              border-width: 7px;
+              width: 0;
+              height: 0;
+              margin-left: -4px;
+              position: absolute;
+              z-index: 1;
+              left: 50%;
+              bottom: -17px; }
+          #login .denglu .biaodan .login_mode ul li .active {
+            color: #F32613;
+            display: block;
+            border-bottom: 3px solid #F32613; }
+      #login .denglu .biaodan .tianxie {
+        height: 199px;
+        margin-top: 30px;
+        padding: 0 40px 20px 40px;
+        position: relative;
+        z-index: 1; }
+        #login .denglu .biaodan .tianxie form {
+          display: block; }
+          #login .denglu .biaodan .tianxie form dl {
+            background-color: #FFF;
+            width: 398px;
+            height: 52px;
+            margin-top: -1px;
+            border: solid 1px #E6E6E6;
+            position: relative;
+            z-index: 1; }
+            #login .denglu .biaodan .tianxie form dl dt {
+              font-size: 14px;
+              line-height: 20px;
+              color: #666;
+              width: 72px;
+              padding: 16px 0 16px 20px;
+              float: left; }
+            #login .denglu .biaodan .tianxie form dl dd {
+              height: 28px;
+              float: left;
+              padding: 12px 0; }
+              #login .denglu .biaodan .tianxie form dl dd label {
+                line-height: 24px;
+                background: #FFF5D9 no-repeat 0 0;
+                text-align: left;
+                white-space: nowrap;
+                height: 24px;
+                padding: 8px 12px 8px 24px;
+                position: absolute;
+                z-index: 2;
+                top: 5px;
+                left: 300px;
+                font-size: 12px;
+                color: #ED5564 !important;
+                margin-left: 8px; }
+              #login .denglu .biaodan .tianxie form dl dd .text {
+                width: 240px;
+                font-family: "microsoft yahei";
+                font-size: 14px;
+                line-height: 28px;
+                height: 28px;
+                border: 0;
+                outline: none;
+                vertical-align: top;
+                display: inline-block;
+                outline: none; }
+          #login .denglu .biaodan .tianxie form .handle_div {
+            line-height: 20px;
+            margin-top: 15px;
+            overflow: hidden;
+            font-size: 12px; }
+            #login .denglu .biaodan .tianxie form .handle_div .auto {
+              color: #999;
+              float: left; }
+              #login .denglu .biaodan .tianxie form .handle_div .auto .checkbox {
+                vertical-align: middle;
+                display: inline-block;
+                margin-right: 4px;
+                outline: none; }
+              #login .denglu .biaodan .tianxie form .handle_div .auto em {
+                line-height: 20px;
+                color: #ff3238;
+                vertical-align: top;
+                margin-left: 6px;
+                font-style: normal; }
+            #login .denglu .biaodan .tianxie form .handle_div a {
+              color: #06C;
+              float: right; }
+          #login .denglu .biaodan .tianxie form .submit_div {
+            margin-top: 15px; }
+            #login .denglu .biaodan .tianxie form .submit_div .submit {
+              display: block;
+              background-color: #F32613;
+              width: 348px;
+              height: 42px;
+              border: solid 1px #D91E17;
+              border-radius: 3px;
+              cursor: pointer;
+              font-family: "microsoft yahei";
+              font-size: 16px;
+              font-weight: 600;
+              color: #FFF;
+              line-height: 30px; }
+      #login .denglu .biaodan .login_api {
+        font-size: 0;
+        width: 340px;
+        margin: 0 auto; }
+        #login .denglu .biaodan .login_api h4 {
+          font-size: 12px;
+          line-height: 20px;
+          color: #333;
+          font-weight: 600;
+          height: 20px;
+          margin-bottom: 10px; }
+        #login .denglu .biaodan .login_api a {
+          font-size: 12px;
+          color: #AAA;
+          vertical-align: top;
+          display: inline-block;
+          height: 32px;
+          margin-right: 24px; }
+        #login .denglu .biaodan .login_api i {
+          background: url(../images/login_pic.png) no-repeat;
+          vertical-align: middle;
+          display: inline-block;
+          width: 32px;
+          height: 32px;
+          margin-right: 6px;
+          font-style: normal; }
+        #login .denglu .biaodan .login_api .QQ i {
+          background-position: 0 0; }
+        #login .denglu .biaodan .login_api .sina i {
+          background-position: -32px 0; }
+        #login .denglu .biaodan .login_api .wx i {
+          background-position: -64px 0; }
+
+#kong {
+  width: 100%;
+  background-color: #f5f5f5;
+  margin-top: 10px; }
+  #kong .cir {
+    width: 1200px;
+    height: 61px;
+    margin: 0 auto; }
+
+#footerfuwu {
+  width: 100%;
+  padding-top: 10px;
+  border-top: 1px solid #eee;
+  background: #fff; }
+  #footerfuwu .fuwubox {
+    width: 1200px;
+    height: 80px;
+    padding-bottom: 15px;
+    margin: 0 auto;
+    border-bottom: 1px solid #ccc;
+    background: url(../images/fuwu.png) top center no-repeat; }
+
+#footerxinxi {
+  width: 100%;
+  overflow: hidden;
+  background: #fff; }
+  #footerxinxi .xinxibox {
+    border: none;
+    margin: 0 auto;
+    width: 1200px; }
+    #footerxinxi .xinxibox ul {
+      width: 932px;
+      padding: 20px 0;
+      float: left;
+      font-size: 0;
+      white-space: nowrap; }
+      #footerxinxi .xinxibox ul li {
+        display: inline-block;
+        font-size: 12px;
+        width: 156px;
+        padding: 10px 0;
+        vertical-align: top;
+        letter-spacing: normal;
+        word-spacing: normal; }
+        #footerxinxi .xinxibox ul li dd a:hover {
+          color: #f60; }
+        #footerxinxi .xinxibox ul li dt {
+          font: 400 16px/20px "microsoft yahei";
+          color: #333;
+          margin: 5px 0 15px 0; }
+        #footerxinxi .xinxibox ul li dd {
+          padding: 4px 5px;
+          font: 12px/20px "microsoft yahei";
+          white-space: nowrap;
+          text-overflow: ellipsis;
+          display: block;
+          overflow: hidden; }
+          #footerxinxi .xinxibox ul li dd a {
+            color: #777;
+            transition: all 0.15s; }
+    #footerxinxi .xinxibox .lianxi {
+      width: 243px;
+      float: right;
+      border-left: 1px solid #eee;
+      text-align: center;
+      margin-top: 40px;
+      padding: 20px 0 30px 20px; }
+    #footerxinxi .xinxibox .hotnum {
+      margin: 0 0 10px;
+      font-size: 22px;
+      line-height: 1;
+      color: #ff6700; }
+    #footerxinxi .xinxibox .hottime {
+      margin: 0 0 20px;
+      color: #666666; }
+    #footerxinxi .xinxibox .hotfrom a:hover {
+      background: #ff6700;
+      color: #fff; }
+    #footerxinxi .xinxibox .hotfrom a {
+      width: 160px;
+      line-height: 28px;
+      display: block;
+      color: #dd4500;
+      background: #fff;
+      margin: 0 auto;
+      border: 1px solid #ff6700;
+      opacity: 0.8; }
+
+#footerlist {
+  width: 100%;
+  padding: 24px 0 20px 0;
+  font-size: 12px !important;
+  text-align: center;
+  color: #666;
+  border: none;
+  line-height: 30px; }
+  #footerlist a {
+    color: #666; }
+  #footerlist p {
+    word-spacing: 5px; }
+  #footerlist .listtu {
+    line-height: 28px;
+    margin: 6px auto; }
+    #footerlist .listtu img {
+      width: 108px;
+      height: 40px;
+      margin: 5px 0 0 5px; }
+
+/*# sourceMappingURL=login.css.map */
